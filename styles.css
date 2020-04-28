@@ -139,8 +139,7 @@ header {
 .hero {
 	position: relative;
 	height: 54vw;
-	background-color: #340190
-		;
+	background-image: linear-gradient(to bottom right, #340190, #31F1AB);
 }
 .hero-content {
 	font-family: 'acumin-pro-extra-condensed', sans-serif;
