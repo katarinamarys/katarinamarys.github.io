@@ -21,7 +21,6 @@ body {
 /* Typography */
 h1, h2 {
 	text-transform: uppercase;
-	text-transform: uppercase;
 	text-shadow: 0px 0px 8px rgba(0, 0, 0,.2);
 	letter-spacing: .3em;
 
@@ -36,12 +35,13 @@ section {
 	min-height: 400px;
 }
 
+section img {
+	max-width: 100%;
+}
+
 section.hero {
 	padding-top: 130px;
-	padding-bottom: 40px;
 	background-image: linear-gradient(to bottom right, #340190, #31F1AB);
-
-	text-align: center;
 	color: white;
 }
 
@@ -53,29 +53,16 @@ section.artwork {
 	background-image: linear-gradient(to bottom right, rgb(160,55,220) 0%, rgb(83,200,234) 100%);
 }
 
+
+section.artwork div {
+	min-height: 150px;
+}
+
 footer {
 	background-image: linear-gradient(to top right, rgb(255,91,127) 0%, rgb(255,213,86) 100%);
 }
 
 
-
-/* Sample code - delete after lesson */
-div.sample {
-	width: 100px;
-	height: 200px;
-}
-
-#red {
-	background-color: red;
-}
-
-#green {
-	background-color: green;
-}
-
-#blue {
-	background-color: blue;
-}
 
 
 /* Media queries */
