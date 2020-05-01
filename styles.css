@@ -9,6 +9,7 @@ html * {
 body {
 	background-color: white;
 	font-size: 18px;
+	font-family: 'Lato', sans-serif;
 }
 
 /* Navbar */
@@ -25,6 +26,12 @@ h1, h2 {
 	letter-spacing: .3em;
 
 }
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Arsenal', sans-serif;
+}
+
+
 
 
 
