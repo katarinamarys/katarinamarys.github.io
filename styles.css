@@ -9,7 +9,8 @@ html * {
 body {
 	background-color: white;
 	font-size: 18px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
 }
 
 /* Navbar */
@@ -28,13 +29,9 @@ h1, h2 {
 }
 
 h1, h2, h3, h4, h5 {
-	font-family: 'Arsenal', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:400;
 }
-
-
-
-
-
 
 /* Sections */
 
@@ -47,13 +44,15 @@ section img {
 }
 
 section.hero {
-	padding-top: 130px;
+	padding-top: 180px;
 	background-image: linear-gradient(to bottom right, #340190, #31F1AB);
 	color: white;
 }
 
 section.intro {
-	font-size: 2rem;
+	font-size: 1.25rem;
+	padding-left: 20%;
+	padding-right: 20%;
 }
 
 section.artwork {
